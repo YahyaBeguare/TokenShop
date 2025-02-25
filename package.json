@@ -1,0 +1,27 @@
+{
+  "name": "tokenshop",
+  "version": "1.0.0",
+  "description": "the TokenShop platform to buy the GoldenToken",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YahyaBeguare/TokenShop.git"
+  },
+  "author": "Yahya Beguare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YahyaBeguare/TokenShop/issues"
+  },
+  "homepage": "https://github.com/YahyaBeguare/TokenShop#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.22.19"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}
