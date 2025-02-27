@@ -4,7 +4,9 @@
   "description": "the TokenShop platform to buy the GoldenToken",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deployTokenShop": "npx hardhat run scripts/deployTokenShop.js",
+    "deployGoldenToken": "npx hardhat run scripts/deployGoldenToken.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +19,13 @@
   },
   "homepage": "https://github.com/YahyaBeguare/TokenShop#readme",
   "dependencies": {
+    "@chainlink/contracts": "^1.3.0",
     "@openzeppelin/contracts": "^5.2.0",
     "ethers": "^6.13.5",
     "hardhat": "^2.22.19"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "fs": "^0.0.1-security"
   }
 }
