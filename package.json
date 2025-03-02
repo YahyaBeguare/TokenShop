@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "testToken": "npx hardhat test test/test.GoldenToken.js",
+    "testTokenShop": "npx hardhat test test/test.TokenShop.js",
     "deployTokenShop": "npx hardhat run scripts/deployTokenShop.js",
     "deployGoldenToken": "npx hardhat run scripts/deployGoldenToken.js"
   },
